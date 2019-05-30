@@ -5,5 +5,8 @@ module.exports = {
     connection: {
       filename: './data/lambda.db3', // the folder will be created when we run the migrations
     },
+    migrations: {
+      directory: '.data/migrations',
+    }
   },
 };
